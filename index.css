@@ -1,0 +1,21 @@
+/* Universal Selectors */
+*{
+      background-color: ghostwhite;
+}
+/* Id Selectors */
+.css_types{
+      border:5px solid red;
+      display: grid;
+      align-items: center;
+}
+/* Class Selectors */
+#selectors> ul > li > p {
+        color: orange;
+      }
+      /* Element Selectors */
+      p{
+            font-size: larger;
+      }
+      p,h2{
+            font-style: oblique;
+      }

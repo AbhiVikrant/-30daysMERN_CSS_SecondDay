@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All about CSS</title>
+    <!-- Internal CSS -->
+    <style>
+      ol > li > p {
+        color: orange;
+      }
+    </style>
+
+    <!-- Adding External File -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Introduction and Applying CSS to HTML Document</h1>
+    <hr />
+    <section class="css_types">
+      <h2>Types of Applying CSS:</h2>
+      <ol type="I">
+        <li>
+          Internal CSS:
+          <p>Applying CSS using style tag inside head.</p>
+        </li>
+        <li>
+          Inline CSS:
+          <p>Applying CSS within tag using style</p>
+        </li>
+        <!-- Inline CSS -->
+        <li style="color: aqua">
+          External CSS:
+          <p>
+            Applying CSS using embedding external file to document and mostly
+            preferred way for writting CSS due to ease to maintain.
+          </p>
+        </li>
+      </ol>
+    </section>
+    <br />
+    <br />
+    <!-- Here we applied same css_types class  -->
+    <section id="selectors" class="css_types">
+      <h2>Types of Selectors in CSS:</h2>
+      <ul type="circle">
+        <li>
+          Universal Selector:
+          <p>It applied to whole body elements and denoted as '*'.</p>
+        </li>
+        <li>
+          Element Selectors:
+          <p>
+            This is the method of applying css by directly on element using tag
+            name. And if same properties to be applied to more than one element,
+            it can be grouped together using , in between them.
+          </p>
+        </li>
+        <li>
+          Class Selectors:
+          <p>
+            It is as providing class name to the element and using '.' with
+            className, we can apply css. More than one element can have a single
+            class.
+          </p>
+        </li>
+        <li>
+          ID selectors:
+          <p>Unique and used usin '#' with ID_Name.</p>
+        </li>
+      </ul>
+    </section>
+    <br />
+    <br />
+    <section class="css_types"></section>
+  </body>
+</html>
