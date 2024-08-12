@@ -55,3 +55,8 @@
       background-clip: content-box;
       background-attachment: scroll;
 }
+/* How to center an image inside a div */
+.centeredImage{
+    background-color: purple;
+     text-align: center;
+}
