@@ -8,6 +8,7 @@
       border:5px solid red;
       display: grid;
       align-items: center;
+      padding: 15px;
 }
 /* Class Selectors */
 #selectors> ul > li > p {
@@ -59,4 +60,12 @@
 .centeredImage{
     background-color: purple;
      text-align: center;
+}
+.border_color{
+      border-color: chartreuse yellowgreen;
+      border-style: solid;
+      border-width: 5px 10px 15px 20px;
+      border-spacing: 5em;
+      border-radius: 5px;
+
 }
