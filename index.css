@@ -61,6 +61,7 @@
     background-color: purple;
      text-align: center;
 }
+/* About border */
 .border_color{
       border-color: chartreuse yellowgreen;
       border-style: solid;
@@ -68,4 +69,12 @@
       border-spacing: 5em;
       border-radius: 5px;
 
+}
+/* About box-model */
+.box-image{
+      box-sizing: border-box;
+      margin:10px 20px 10px 20px;
+      border: 20px dotted green;
+      padding: 10px;
+      box-shadow: 15px -20px teal;
 }
