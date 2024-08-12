@@ -1,6 +1,7 @@
 /* Universal Selectors */
 *{
-      background-color: ghostwhite;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: normal;
 }
 /* Id Selectors */
 .css_types{
@@ -44,7 +45,13 @@
 .cat{
       /* background-color: wheat; */
       background-image: url(images/cat.png);
-      background-size:100% 100%;
-      background-repeat:repeat;
-      background-clip: padding-box;
+      /* background-size:100% 100%; */
+      background-repeat:space;
+      /* background-clip: padding-box; */
+      /* background-size: 30%; */
+      background-size: contain;
+      background-position: center;
+      background-origin:padding-box;
+      background-clip: content-box;
+      background-attachment: scroll;
 }
