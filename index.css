@@ -78,3 +78,24 @@
       padding: 10px;
       box-shadow: 15px -20px teal;
 }
+/* About Text CSS and Font */
+
+#about_text_font>p{
+      color: azure;
+      background-color: #0000FF;
+      text-align: center;
+      text-indent: 10px;
+      text-decoration: overline;
+      text-rendering: optimizeSpeed;
+      text-decoration-color: chartreuse;
+      text-wrap:pretty;
+      text-transform: capitalize;
+      word-break:break-all;
+      word-spacing: 10px;
+      letter-spacing: 10px;
+}
+.font_use{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 900;
+}
+
