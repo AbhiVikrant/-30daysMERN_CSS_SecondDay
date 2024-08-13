@@ -100,3 +100,14 @@
       font-weight: 900;
 }
 
+/* Anchor Tag Styles */
+.anchor_tag{
+      text-decoration: none;
+      color: greenyellow;
+      font-size: larger;
+}
+.anchor_tag:link    { color: blue; }
+.anchor_tag:visited { color: purple; }
+.anchor_tag:hover   { color: red; }
+.anchor_tag:focus   { outline: 1px solid blue; }
+.anchor_tag:active  { color: yellow ;}
